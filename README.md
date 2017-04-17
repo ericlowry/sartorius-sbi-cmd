@@ -20,7 +20,6 @@ $ node sbi-cmd.js
 
   Usage: sbi-cmd [options] [command]
 
-
   Commands:
 
     info           show information about the scale
@@ -46,8 +45,6 @@ $ node sbi-cmd.js
     --responseTimeout <ms>  response timeout [200] milliseconds
     --precision <places>    weight precision [1] or 2 decimal places
 
-
-$
 ````
 # Examples
 
@@ -56,21 +53,18 @@ $
 $ node sbi-cmd.js info --ttyDevice /dev/tty.USB0 
 Scale Type    : PMA7501-X00V1
 Serial Number : 0034209055
-$
 ````
 
 ## Get the current weight on the scale
 ````
 $ node sbi-cmd.js weight --ttyDevice /dev/tty.USB0 
 Weight: 249.1 g
-$
 ````
 
 ## Zero-Tare the scale
 ````
 $ node sbi-cmd.js tare --ttyDevice /dev/tty.USB0
 Tared!
-$
 ````
 
 # Notes
