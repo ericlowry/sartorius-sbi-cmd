@@ -48,7 +48,7 @@ $ node sbi-cmd.js
 ````
 # Examples
 
-## Get the scale's model and serial #
+## Get the scale's model and serial number
 ````
 $ node sbi-cmd.js info --ttyDevice /dev/tty.USB0 
 Scale Type    : PMA7501-X00V1
