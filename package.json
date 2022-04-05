@@ -27,6 +27,6 @@
   "homepage": "https://github.com/ericlowry/sartorius-sbi-cmd#readme",
   "dependencies": {
     "commander": "2.9.0",
-    "sartorius-sbi": "^0.0.1"
+    "sartorius-sbi": "^0.2.0"
   }
 }
